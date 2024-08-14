@@ -44,8 +44,10 @@ namespace csharp_tdd_bobs_bagels.tests
         {
             // arrange
             Basket basket = new Basket();
+            basket.AddBagel("Blueberry");
+            basket.RemoveBagel("Blueberry");
             // act
-            bool result = basket.Equals(null);
+            bool result = basket.Items.Contains("Blueberry");
             // assert
             Assert.That(result, Is.False);
         }

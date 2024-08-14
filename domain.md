@@ -12,7 +12,7 @@
 			      |				 
 4				  | public int BasketMax {get; set; } = 3;			  | property to change max num	| int number
 				  |
-5				  | Equals(null)									  | if bagel in list			| bool
+5				  | Items.Contains()								  | if bagel in list			| bool
 																		
 
-             
+              

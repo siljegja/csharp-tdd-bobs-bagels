@@ -21,7 +21,7 @@ namespace tdd_bobs_bagels.CSharp.Main
             }
             return false;
         }
-             
+              
         public bool RemoveBagel(string bagel)
         {
             Items.Remove(bagel);
@@ -34,7 +34,6 @@ namespace tdd_bobs_bagels.CSharp.Main
             return BasketMax;
         }
 
-    
     }
 }
 
